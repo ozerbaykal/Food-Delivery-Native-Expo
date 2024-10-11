@@ -1,4 +1,5 @@
 import { View, Text, ScrollView, Image, TouchableOpacity } from "react-native";
+import { StatusBar } from "expo-status-bar";
 import { useRoute, useNavigation } from "@react-navigation/native";
 import { themeColors } from "../theme";
 import * as Icon from "react-native-feather";
@@ -13,6 +14,7 @@ const RestaurantScreen = () => {
   return (
     <View>
       <CartIcon />
+      <StatusBar style="light" />
       <ScrollView>
         <View colassName="relative">
           <Image className="w-full h-72" source={item.image} />
