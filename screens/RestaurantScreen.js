@@ -7,7 +7,7 @@ import DishRow from "../components/dishRow";
 import CartIcon from "../components/cartIcon";
 import { useEffect } from "react";
 import { useDispatch } from "react-redux";
-import { setRestaurant } from "../slices/RestaurantSlice";
+import { setRestaurant } from "../slices/restaurantSlice";
 
 const RestaurantScreen = () => {
   const { params } = useRoute();

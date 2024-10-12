@@ -4,7 +4,7 @@ import { themeColors } from "../theme";
 import * as Icon from "react-native-feather";
 import { useNavigation } from "@react-navigation/native";
 import { useDispatch, useSelector } from "react-redux";
-import { selectRestaurant } from "../slices/RestaurantSlice";
+import { selectRestaurant } from "../slices/restaurantSlice";
 import {
   removeFromCart,
   selectCartItems,
