@@ -73,7 +73,7 @@ export const featured = {
       ],
     },
     {
-      id: 1,
+      id: 2,
       name: "Papa Johns",
       image: require("../assets/images/pizza.png"),
       description: "Hot and spicy pizzas",
@@ -108,7 +108,7 @@ export const featured = {
       ],
     },
     {
-      id: 1,
+      id: 3,
       name: "Papa Johns",
       image: require("../assets/images/pizza.png"),
       description: "Hot and spicy pizzas",
